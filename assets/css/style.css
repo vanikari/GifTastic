@@ -1,0 +1,45 @@
+.animal-btn {
+    background-color: rgb(78, 184, 148);
+    margin: 10px;
+    color: azure;
+    border-radius: 8px;
+    padding: 5px; 
+    width: 80px;
+    height: 35px; 
+}
+
+.second-container {
+    display: block;
+    justify-content: space-between;
+}
+
+#gifs-view {
+    float: left;
+    width: 1080px;
+}
+
+#animal-form {
+    display: block;
+    float: right;
+    justify-content: space-around;
+}
+.animal {
+    display: block;
+    float: left;
+    margin: 5px;
+}
+
+#add-animal {
+    background-color: rgb(78, 184, 148);
+    margin-top: 15px;
+    color: azure;
+    border-radius: 8px;
+    padding: 5px; 
+    width: 80px;
+    height: 35px; 
+}
+
+p {
+    margin: 0px;
+    height: 28px;
+}

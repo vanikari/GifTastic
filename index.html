@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giphy Animals</title>
+
+    <!-- Linking Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Linking to the external stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+    <div class="first-container">
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div id="buttons-view"></div>
+   
+    </div>
+
+    <div class="second-container">
+        <!-- gifs will Get Dumped Here -->
+        <div id="gifs-view"></div>
+
+
+        <!-- Form for adding a new animal to the existing list -->
+        <form id="animal-form">
+            <label for="animal-input"><strong> Add a new Animal!</strong></label><br>
+            <input type="text" id="animal-input" style="width:300px">
+            <br>
+            <!-- Button triggers new animal to be added -->
+            <input id="add-animal" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Linking to the jQuery Library  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+
+    <!-- Linking Javascript text -->
+    <script src="assets/javascript/app.js">
+    </script>
+
+</body>
+
+</html>
